@@ -23,4 +23,4 @@ def segment_image_kmeans(image_path, K=10):
 
     cv2.imwrite('segmentlangan_rasm.jpg', cv2.cvtColor(segmented_image, cv2.COLOR_RGB2BGR))
 
-segment_image_kmeans(image_path='ddr.jpg', K=10)
+segment_image_kmeans(image_path='ddr.jpg', K=10) #Salom dunyo
